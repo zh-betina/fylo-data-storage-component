@@ -1,0 +1,22 @@
+{
+  "name": "fylo-data-storage",
+  "version": "1.0.0",
+  "description": "Coding design from Frontend Mentor for learning purposes.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zh-betina/fylo-data-storage-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zh-betina/fylo-data-storage-component/issues"
+  },
+  "homepage": "https://github.com/zh-betina/fylo-data-storage-component#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
