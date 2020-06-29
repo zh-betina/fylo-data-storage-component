@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+html {
+  font-size: 62.5%; }
+
+html, body, h1, main, section, footer {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif; }
+
+body {
+  background-image: url(./images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; }
+
+main {
+  margin-top: 12.7rem;
+  margin-left: 2.4rem; }
+
+section.main__fylo--box {
+  height: 20rem;
+  margin-bottom: 1.7rem; }
+
+section.box--dark {
+  background-color: #1D2C67;
+  width: 32.7rem; }
+  section.box--dark .main__logo {
+    padding-top: 4rem;
+    padding-left: 4.2rem; }
+  section.box--dark .main__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 4.1rem;
+    padding-left: 5.5rem;
+    width: 15.4rem;
+    align-items: center; }
+
+section.main__info-box {
+  height: 15.9rem; }
+  section.main__info-box h1.main__heading {
+    padding-top: 3.1rem;
+    padding-left: 4.8rem; }

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+//variables:
+$mobile-width: 375px;
+$desktop-width: 1440px;
+$font-size: 1.4rem;
+$font-family: 'Raleway', sans-serif;
+$box-clr: #1D2C67;
+$col: column;
+$row: row;
+
+//mixins:
+@mixin bgr(){
+  background-image: url(./images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin flex($dir){
+  display: flex;
+  flex-direction: $dir;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+html, body, h1, main, section, footer{
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+}
+
+body{
+  @include bgr();
+  @include flex($col);
+}
+
+main{
+  margin-top: 12.7rem;
+  margin-left: 2.4rem;
+}
+
+section.main__fylo--box{
+  height: 20rem;
+  margin-bottom: 1.7rem;
+}
+
+section.box--dark{
+  background-color: $box-clr;
+  width: 32.7rem;
+
+    .main__logo{
+      padding-top: 4rem;
+      padding-left: 4.2rem;
+
+    }
+
+    .main__icons{
+      @include flex($row);
+      justify-content: space-between;
+      padding-top: 4.1rem;
+      padding-left: 5.5rem;
+      width: 15.4rem;
+      align-items: center;
+    }
+}
+
+section.main__info-box{
+  height: 15.9rem;
+
+    h1.main__heading{
+      padding-top: 3.1rem;
+      padding-left: 4.8rem;
+    }
+}
