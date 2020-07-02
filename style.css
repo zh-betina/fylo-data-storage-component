@@ -12,11 +12,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  font-size: 1rem; }
 
 main {
   margin-top: 12.7rem;
   margin-left: 2.4rem; }
+
+.txt--bold {
+  font-weight: 700; }
 
 section.main__fylo--box {
   height: 20rem;
@@ -40,5 +44,24 @@ section.box--dark {
 section.main__info-box {
   height: 15.9rem; }
   section.main__info-box h1.main__heading {
+    font-weight: 400;
     padding-top: 3.1rem;
-    padding-left: 4.8rem; }
+    padding-left: 4.8rem;
+    letter-spacing: -.4px; }
+  section.main__info-box div.main__usage-bar--box {
+    margin-top: 1.6rem;
+    margin-left: 3.6rem;
+    width: 26rem;
+    height: 1.8rem;
+    background-color: #141F4C;
+    border-radius: 2rem;
+    z-index: 1; }
+    section.main__info-box div.main__usage-bar--box hr.main__usage-bar {
+      margin-top: 1.1rem;
+      margin-left: -.1rem;
+      width: 19.2rem;
+      height: 1.4rem;
+      border-radius: 2rem;
+      border-style: none;
+      background: linear-gradient(to right, #ffa399, #ff4d97);
+      z-index: 2; }
