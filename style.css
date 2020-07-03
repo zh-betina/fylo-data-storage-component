@@ -22,6 +22,9 @@ main {
 .txt--bold {
   font-weight: 700; }
 
+.text--white {
+  color: #fff; }
+
 section.main__fylo--box {
   height: 20rem;
   margin-bottom: 1.7rem; }
@@ -65,3 +68,26 @@ section.main__info-box {
       border-style: none;
       background: linear-gradient(to right, #ffa399, #ff4d97);
       z-index: 2; }
+  section.main__info-box div.main__usage-bar--text-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25rem;
+    margin-left: 3.4rem; }
+    section.main__info-box div.main__usage-bar--text-wrapper .main__usage-bar--text {
+      font-weight: 700; }
+
+div.data-left__box {
+  display: inline-block;
+  margin-left: 7.4rem;
+  margin-top: .6rem;
+  padding-top: 1.4rem;
+  text-transform: uppercase;
+  width: 17.96rem;
+  height: 4.3rem;
+  background-color: #fff; }
+  div.data-left__box span.data-left__text {
+    margin-left: 2.6rem; }
+    div.data-left__box span.data-left__text span:first-child {
+      font-size: 3.9rem;
+      font-weight: 700; }
