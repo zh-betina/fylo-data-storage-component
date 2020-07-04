@@ -25,6 +25,9 @@ main {
 .text--white {
   color: #fff; }
 
+.box--dark {
+  border-radius: .5rem; }
+
 section.main__fylo--box {
   height: 20rem;
   margin-bottom: 1.7rem; }
@@ -43,6 +46,12 @@ section.box--dark {
     padding-left: 5.5rem;
     width: 15.4rem;
     align-items: center; }
+    section.box--dark .main__icons .main__icon {
+      background-color: #0C122C;
+      border-style: solid;
+      border-color: #0C122C;
+      border-radius: 1rem;
+      border-width: 1.1rem; }
 
 section.main__info-box {
   height: 15.9rem; }
@@ -72,16 +81,20 @@ section.main__info-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 25rem;
-    margin-left: 3.4rem; }
+    width: 26rem;
+    margin-left: 3.4rem;
+    margin-top: -.3rem; }
     section.main__info-box div.main__usage-bar--text-wrapper .main__usage-bar--text {
-      font-weight: 700; }
+      font-weight: 700;
+      font-size: 1.2rem; }
 
 div.data-left__box {
   display: inline-block;
   margin-left: 7.4rem;
-  margin-top: .6rem;
+  margin-top: .4rem;
   padding-top: 1.4rem;
+  padding-bottom: 1.5rem;
+  border-radius: 1rem;
   text-transform: uppercase;
   width: 17.96rem;
   height: 4.3rem;
