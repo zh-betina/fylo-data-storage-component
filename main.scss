@@ -10,6 +10,7 @@ $font-weight-bold: 700;
 $box-clr: #1D2C67;
 $white-clr: #fff;
 $navy-blue: #0C122C;
+$grey-clr: #9999A1;
 $col: column;
 $row: row;
 
@@ -80,8 +81,8 @@ section.box--dark{
     .main__icons{
       @include flex($row);
       justify-content: space-between;
-      padding-top: 4.1rem;
-      padding-left: 5.5rem;
+      padding-top: 2.9rem;
+      padding-left: 4.2rem;
       width: 15.4rem;
       align-items: center;
 
@@ -91,6 +92,20 @@ section.box--dark{
           border-color: $navy-blue;
           border-radius: 1rem;
           border-width: 1.1rem;
+        }
+
+        .main__icon--doc{
+          border-width: 1.1rem 1.5rem 1.1rem 1.5rem;
+        }
+
+        .main__icon--folder{
+          margin: 0 1.9rem 0 1.5rem;
+          border-width: 1.3rem 1.2rem 1.3rem 1.2rem;
+        }
+
+        .main__icon--upload{
+          margin-left: -.4rem;
+          border-width: 1.7rem 1.2rem 1.4rem 1.3rem;
         }
     }
 }
@@ -160,7 +175,13 @@ div.data-left__box{
         }
 
         span:last-child{
-
+          position: absolute;
+          font-size: 1.3rem;
+          bottom: 12.5rem;
+          left: 19.14rem;
+          padding-left: .8rem;
+          color: $grey-clr;
+          font-weight: $font-weight-bold;
         }
     }
 }
