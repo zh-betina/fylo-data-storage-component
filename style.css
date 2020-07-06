@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 html {
   font-size: 62.5%; }
@@ -88,11 +89,14 @@ section.main__info-box {
       background: linear-gradient(to right, #ffa399, #ff4d97);
       z-index: 2; }
     section.main__info-box div.main__usage-bar--box hr.main__usage-bar::after {
-      content: "";
+      content: "•";
+      position: inherit;
+      font-size: 5.5rem;
+      color: #fff;
       width: 100%;
       height: 100%;
-      top: 0;
-      left: 0;
+      top: -2.6rem;
+      left: 17.5rem;
       z-index: 3; }
   section.main__info-box div.main__usage-bar--text-wrapper {
     display: flex;
