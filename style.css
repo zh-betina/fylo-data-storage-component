@@ -126,10 +126,10 @@ div.data-left__box {
       font-size: 3.9rem;
       font-weight: 700; }
     div.data-left__box span.data-left__text span:last-child {
-      position: absolute;
+      position: relative;
       font-size: 1.3rem;
-      bottom: 12.5rem;
-      left: 19.14rem;
+      top: -.9rem;
+      left: .1rem;
       padding-left: .8rem;
       color: #9999A1;
       font-weight: 700; }
