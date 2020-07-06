@@ -120,23 +120,34 @@ section.main__info-box{
       letter-spacing: -.4px;
     }
     div.main__usage-bar--box{
-      margin-top: 1.6rem;
-      margin-left: 3.6rem;
-      width: 26rem;
-      height: 1.8rem;
+      margin-top: 1.4rem;
+      margin-left: 3.4rem;
+      width: 25.8rem;
+      height: 2rem;
       background-color: #141F4C;
       border-radius: 2rem;
       z-index: 1;
 
         hr.main__usage-bar{
+          position: relative;
+          top: .3rem;
+          left: -3rem;
           margin-top: 1.1rem;
-          margin-left: -.1rem;
           width: 19.2rem;
           height: 1.4rem;
           border-radius: 2rem;
           border-style: none;
           background: linear-gradient(to right, #ffa399, #ff4d97);
           z-index: 2;
+        }
+
+        hr.main__usage-bar::after{
+          content: "";
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          z-index: 3;
         }
     }
 
