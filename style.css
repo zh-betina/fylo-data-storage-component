@@ -24,14 +24,15 @@ main {
   font-weight: 700; }
 
 .text--white {
-  color: #fff; }
+  color: #DDDBFF; }
 
 .box--dark {
   border-radius: .5rem; }
 
 section.main__fylo--box {
   height: 20rem;
-  margin-bottom: 1.7rem; }
+  margin-bottom: 1.7rem;
+  border-top-right-radius: 10rem; }
 
 section.box--dark {
   background-color: #1D2C67;
@@ -92,7 +93,7 @@ section.main__info-box {
       content: "•";
       position: inherit;
       font-size: 5.5rem;
-      color: #fff;
+      color: #DDDBFF;
       width: 100%;
       height: 100%;
       top: -2.6rem;
@@ -119,7 +120,8 @@ div.data-left__box {
   text-transform: uppercase;
   width: 17.96rem;
   height: 4.3rem;
-  background-color: #fff; }
+  background-color: #fff;
+  color: #0C122C; }
   div.data-left__box span.data-left__text {
     margin-left: 2.6rem; }
     div.data-left__box span.data-left__text span:first-child {
@@ -131,5 +133,5 @@ div.data-left__box {
       top: -.9rem;
       left: .1rem;
       padding-left: .8rem;
-      color: #9999A1;
+      color: #848794;
       font-weight: 700; }
